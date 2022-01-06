@@ -19,5 +19,13 @@ int main(void){
     printf("You are easily worth that! If platinum prices drop,\n");
     printf("eat more to maintain your value.\n");
 
+    printf("----------------------------------------\n");
+
+    int x = 100;
+
+    printf("dec = %d; octal = %o; hex = %x\n", x, x, x);
+    printf("dex = %d; octal = %#o; hex = %#x\n", x, x, x);
+
+
     return 0;
 }
